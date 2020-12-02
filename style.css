@@ -1,0 +1,21 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/cb/da/e9/cbdae91af327b72d53e5d53cf06e8e84.png);
+    background-size: cover;
+}
+h1{
+    color: white;
+    
+}
+h2{
+    color: red;
+    font-size: 20px;
+}
+h3{
+    color: white;
+}
+#time, #date, #week-day{
+    color: blue;
+    text-align: center;
+    margin: 0, 10px;
+    font-size: 25px;
+}
