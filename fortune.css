@@ -1,0 +1,23 @@
+body{
+    background-image: url(https://i.giphy.com/media/dw2yCF4MhcNmSMgpfe/giphy.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+button{
+    text-align: center;
+    color: blue;
+    width: 200px;
+    height: 100px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST2ssGE66lx3eT9UFTGC2yT3jGaHFPIW-vmg&usqp=CAU);
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+    filter: drop-shadow(red 5px 5px 5px);
+}
+h2, h3{
+    color: white;
+    filter: drop-shadow(red 3px 3px 3px);
+    font-family: cursive;
+    text-align: center;
+}
