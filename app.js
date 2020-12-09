@@ -84,16 +84,37 @@
 // var small= "I'm small like a mouse";
 // console.log(big, small);
 
-var Movie = "Batman";
-console.log(Movie);
-console.log("I really " + "Like " + Movie);
+// var Movie = "Batman";
+// console.log(Movie);
+// console.log("I really " + "Like " + Movie);
 
-var boolean= "All MOVIES are Boring" != "All Movies are BORING";
-console.log(boolean);
+// var boolean= "All MOVIES are Boring" != "All Movies are BORING";
+// console.log(boolean);
 
-console.log("I really " + "Like to " + "Eat.");
+// console.log("I really " + "Like to " + "Eat.");
 
-var bill= 15 + 6;
-var tip= bill * 0.20;
-var total= bill + tip;
-console.log("$" + total);
+// var bill= 15 + 6;
+// var tip= bill * 0.20;
+// var total= bill + tip;
+// console.log("$" + total);
+
+//functions
+
+// function findAverage(x, y){
+//     var answer = (x + y)/2; 
+//     return answer;
+//     var avg= findAverage +
+// }
+
+function tellFortune(numberOfChildren, partnerName, location, jobTitle) {
+    return("You will be a " + jobTitle + ", with " + numberOfChildren + " kids.");
+}
+
+function tellFortune2(numberOfChildren, partnerName, location, jobTitle){
+    var future= "You will be a " + jobTitle + " in " + location + ", and married to " + partnerName + ",with " + numberOfChildren + " kids."
+        return(future);
+}
+console.log(tellFortune("2", "Carlos", "Mary", "Designer"));
+console.log(tellFortune("2", "David", "Carla", "Developer"));
+console.log(tellFortune2("1", "Marcos", "Canada", "Developer"));
+console.log(tellFortune2("1", "Omar", "Colorado", "Designer"));
