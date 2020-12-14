@@ -1,12 +1,26 @@
 body{
-    background-image: url(https://i.pinimg.com/originals/cb/da/e9/cbdae91af327b72d53e5d53cf06e8e84.png);
+    background-image: url(https://previews.123rf.com/images/montypeter/montypeter1610/montypeter161000060/66894483-cemetery-blurred-background-halloween.jpg);
     background-size: cover;
     text-align: center;
     font-family: sans-serif;
     font-weight: 100;
   }
   #demo{
-      color: red;
+      color: orange;
       font-family: 'Times New Roman', Times, serif;
       font-size: 35px;
+  }
+  p{
+      color: rgb(255, 157, 0);
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 25px;
+      background: black; 
+    }
+  h2{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 35px;
+      color: red;
+  }
+  .nav{
+      background: black;
   }
