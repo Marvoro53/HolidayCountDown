@@ -1,3 +1,35 @@
+//Counting down to
+var countDownDate = new Date("Jan 5, 2021 12:30:00").getTime();
+
+//seconds
+var x = setInterval(function() {
+
+//today date and time
+var now = new Date().getTime();
+  
+// distance between now and the count down date
+var distance = countDownDate - now;
+  
+// days, hours, minutes and seconds
+var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+// result in the element with id="demo"
+ document.getElementById("demo").innerHTML = days + " days " + hours + " hours "
++ minutes + " minutes " + seconds + " seconds ";
+  
+// If the count down is finished, write some text
+if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+//used w3schools as my resource to do this cause I was kinda lost not going to lie
+
+
+//Practice down 
 // console.log("Hello World");
 
 // // alert("My name is Marvin Lara");
@@ -105,16 +137,3 @@
 //     return answer;
 //     var avg= findAverage +
 // }
-
-function tellFortune(numberOfChildren, partnerName, location, jobTitle) {
-    return("You will be a " + jobTitle + ", with " + numberOfChildren + " kids.");
-}
-
-function tellFortune2(numberOfChildren, partnerName, location, jobTitle){
-    var future= "You will be a " + jobTitle + " in " + location + ", and married to " + partnerName + ",with " + numberOfChildren + " kids."
-        return(future);
-}
-console.log(tellFortune("2", "Carlos", "Mary", "Designer"));
-console.log(tellFortune("2", "David", "Carla", "Developer"));
-console.log(tellFortune2("1", "Marcos", "Canada", "Developer"));
-console.log(tellFortune2("1", "Omar", "Colorado", "Designer"));
